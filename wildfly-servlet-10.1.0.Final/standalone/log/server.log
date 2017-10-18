@@ -1,0 +1,313 @@
+2017-10-18 13:53:49,099 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-10-18 13:53:49,470 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-10-18 13:53:49,539 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Servlet 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-10-18 13:53:49,540 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	gopherProxySet = false
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/libin/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/99/21x23v1s2dgd9j9bpwjhnzl00000gn/T/
+	java.library.path = /Users/libin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_92-b14
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_92
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.92-b14
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final
+	jboss.host.name = adsl-99-12-207-212
+	jboss.modules.dir = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = adsl-99-12-207-212
+	jboss.qualified.host.name = adsl-99-12-207-212.dsl.scrm01.sbcglobal.net
+	jboss.server.base.dir = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone
+	jboss.server.config.dir = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/log
+	jboss.server.name = adsl-99-12-207-212
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/modules
+	org.jboss.boot.log.file = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.12.6
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/jboss-modules.jar -mp /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final -Djboss.server.base.dir=/Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.country.format = CN
+	user.dir = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/bin
+	user.home = /Users/libin
+	user.language = en
+	user.name = libin
+	user.timezone = Asia/Shanghai
+2017-10-18 13:53:49,541 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/configuration/logging.properties 
+2017-10-18 13:53:50,275 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 10) WFLYDR0001: Content added at location /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/data/content/27/45021d538d3f242254e75f83cc35363999ce45/content
+2017-10-18 13:53:50,290 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-10-18 13:53:50,306 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.4.0.Final
+2017-10-18 13:53:50,312 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.4.0.Final
+2017-10-18 13:53:50,341 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 15) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2017-10-18 13:53:50,355 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 17) WFLYNAM0001: Activating Naming Subsystem
+2017-10-18 13:53:50,365 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 19) WFLYSEC0002: Activating Security Subsystem
+2017-10-18 13:53:50,366 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 1.4.0.Final starting
+2017-10-18 13:53:50,372 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2017-10-18 13:53:50,404 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.21.Final
+2017-10-18 13:53:50,406 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2017-10-18 13:53:50,425 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 21) WFLYUT0014: Creating file handler for path '/Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-10-18 13:53:50,430 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2017-10-18 13:53:50,431 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2017-10-18 13:53:50,481 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-10-18 13:53:50,554 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2017-10-18 13:53:50,563 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/deployments
+2017-10-18 13:53:50,564 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-8) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+2017-10-18 13:53:50,566 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "demo.war" (runtime-name: "demo.war")
+2017-10-18 13:53:50,644 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2017-10-18 13:53:51,877 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2017-10-18 13:53:51,877 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2017-10-18 13:53:52,012 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 42) 2 Spring WebApplicationInitializers detected on classpath
+2017-10-18 13:53:52,489 INFO  [com.example.demo.DemoApplication] (ServerService Thread Pool -- 42) Starting DemoApplication on adsl-99-12-207-212.dsl.scrm01.sbcglobal.net with PID 13446 (started by libin in /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/bin)
+2017-10-18 13:53:52,490 INFO  [com.example.demo.DemoApplication] (ServerService Thread Pool -- 42) No active profile set, falling back to default profiles: default
+2017-10-18 13:53:52,513 INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] (ServerService Thread Pool -- 42) Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78ff00a8: startup date [Wed Oct 18 13:53:52 CST 2017]; root of context hierarchy
+2017-10-18 13:53:53,133 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 42) Initializing Spring embedded WebApplicationContext
+2017-10-18 13:53:53,134 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 42) Root WebApplicationContext: initialization completed in 621 ms
+2017-10-18 13:53:53,486 INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean] (ServerService Thread Pool -- 42) Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-18 13:53:53,489 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 42) Mapping filter: 'errorPageFilter' to: [/*]
+2017-10-18 13:53:53,490 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 42) Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-18 13:53:53,490 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 42) Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-18 13:53:53,491 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 42) Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-18 13:53:53,491 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 42) Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-18 13:53:54,182 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (ServerService Thread Pool -- 42) Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78ff00a8: startup date [Wed Oct 18 13:53:52 CST 2017]; root of context hierarchy
+2017-10-18 13:53:54,233 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 42) Mapped "{[/display]}" onto public java.lang.String com.example.demo.JspController.welcome(org.springframework.ui.Model)
+2017-10-18 13:53:54,236 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 42) Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-18 13:53:54,237 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 42) Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-18 13:53:54,261 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 42) Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-18 13:53:54,261 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 42) Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-18 13:53:54,295 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 42) Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-18 13:53:54,466 INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] (ServerService Thread Pool -- 42) Registering beans for JMX exposure on startup
+2017-10-18 13:53:54,480 INFO  [com.example.demo.DemoApplication] (ServerService Thread Pool -- 42) Started DemoApplication in 2.36 seconds (JVM running for 5.748)
+2017-10-18 13:53:54,506 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 42) WFLYUT0021: Registered web context: /demo
+2017-10-18 13:53:54,614 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 13) WFLYSRV0010: Deployed "demo.war" (runtime-name : "demo.war")
+2017-10-18 13:53:54,661 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-10-18 13:53:54,661 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-10-18 13:53:54,661 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Servlet 10.1.0.Final (WildFly Core 2.2.0.Final) started in 5843ms - Started 568 of 572 services (39 services are lazy, passive or on-demand)
+2017-10-18 13:54:03,981 INFO  [io.undertow.servlet] (default task-1) Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-18 13:54:03,982 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-18 13:54:03,994 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+2017-10-18 13:54:17,004 INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] (Thread-60) Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78ff00a8: startup date [Wed Oct 18 13:53:52 CST 2017]; root of context hierarchy
+2017-10-18 13:54:17,005 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2017-10-18 13:54:17,006 INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] (Thread-60) Unregistering JMX-exposed beans on shutdown
+2017-10-18 13:54:17,024 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTPS listener https suspending
+2017-10-18 13:54:17,024 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2017-10-18 13:54:17,025 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 48) WFLYUT0022: Unregistered web context: /demo
+2017-10-18 13:54:17,027 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 48) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2017-10-18 13:54:17,029 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2017-10-18 13:54:17,030 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2017-10-18 13:54:17,031 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 48) Closing Spring root WebApplicationContext
+2017-10-18 13:54:17,037 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2017-10-18 13:54:17,041 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0004: Undertow 1.4.0.Final stopping
+2017-10-18 13:54:17,078 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment demo.war (runtime-name: demo.war) in 60ms
+2017-10-18 13:54:17,081 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Servlet 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 59ms
+2017-10-18 13:59:19,920 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-10-18 13:59:20,264 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-10-18 13:59:20,338 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Servlet 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-10-18 13:59:20,340 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	gopherProxySet = false
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/libin/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/99/21x23v1s2dgd9j9bpwjhnzl00000gn/T/
+	java.library.path = /Users/libin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_92-b14
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_92
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.92-b14
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final
+	jboss.host.name = adsl-99-12-207-212
+	jboss.modules.dir = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = adsl-99-12-207-212
+	jboss.qualified.host.name = adsl-99-12-207-212.dsl.scrm01.sbcglobal.net
+	jboss.server.base.dir = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone
+	jboss.server.config.dir = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/log
+	jboss.server.name = adsl-99-12-207-212
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/modules
+	org.jboss.boot.log.file = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.12.6
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/jboss-modules.jar -mp /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final -Djboss.server.base.dir=/Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.country.format = CN
+	user.dir = /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/bin
+	user.home = /Users/libin
+	user.language = en
+	user.name = libin
+	user.timezone = Asia/Shanghai
+2017-10-18 13:59:20,340 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/configuration/logging.properties 
+2017-10-18 13:59:21,074 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-10-18 13:59:21,088 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.4.0.Final
+2017-10-18 13:59:21,094 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.4.0.Final
+2017-10-18 13:59:21,131 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 15) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2017-10-18 13:59:21,133 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 17) WFLYNAM0001: Activating Naming Subsystem
+2017-10-18 13:59:21,133 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 19) WFLYSEC0002: Activating Security Subsystem
+2017-10-18 13:59:21,137 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2017-10-18 13:59:21,174 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 1.4.0.Final starting
+2017-10-18 13:59:21,175 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.21.Final
+2017-10-18 13:59:21,183 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2017-10-18 13:59:21,212 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 21) WFLYUT0014: Creating file handler for path '/Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-10-18 13:59:21,220 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2017-10-18 13:59:21,221 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2017-10-18 13:59:21,274 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-10-18 13:59:21,344 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2017-10-18 13:59:21,355 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-3) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+2017-10-18 13:59:21,355 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/standalone/deployments
+2017-10-18 13:59:21,360 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "demo.war" (runtime-name: "demo.war")
+2017-10-18 13:59:21,452 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2017-10-18 13:59:22,669 WARN  [org.jboss.as.ee] (MSC service thread 1-1) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2017-10-18 13:59:22,669 WARN  [org.jboss.as.ee] (MSC service thread 1-1) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2017-10-18 13:59:22,795 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 45) 2 Spring WebApplicationInitializers detected on classpath
+2017-10-18 13:59:23,234 INFO  [com.example.demo.DemoApplication] (ServerService Thread Pool -- 45) Starting DemoApplication on adsl-99-12-207-212.dsl.scrm01.sbcglobal.net with PID 13860 (started by libin in /Users/libin/Code/github.com/binblee/boot-wildfly/wildfly-servlet-10.1.0.Final/bin)
+2017-10-18 13:59:23,235 INFO  [com.example.demo.DemoApplication] (ServerService Thread Pool -- 45) No active profile set, falling back to default profiles: default
+2017-10-18 13:59:23,255 INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] (ServerService Thread Pool -- 45) Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30936ec1: startup date [Wed Oct 18 13:59:23 CST 2017]; root of context hierarchy
+2017-10-18 13:59:23,851 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 45) Initializing Spring embedded WebApplicationContext
+2017-10-18 13:59:23,851 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 45) Root WebApplicationContext: initialization completed in 596 ms
+2017-10-18 13:59:24,202 INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean] (ServerService Thread Pool -- 45) Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-18 13:59:24,204 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 45) Mapping filter: 'errorPageFilter' to: [/*]
+2017-10-18 13:59:24,205 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 45) Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-18 13:59:24,205 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 45) Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-18 13:59:24,205 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 45) Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-18 13:59:24,205 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 45) Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-18 13:59:24,826 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (ServerService Thread Pool -- 45) Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30936ec1: startup date [Wed Oct 18 13:59:23 CST 2017]; root of context hierarchy
+2017-10-18 13:59:24,869 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 45) Mapped "{[/display]}" onto public java.lang.String com.example.demo.JspController.welcome(org.springframework.ui.Model)
+2017-10-18 13:59:24,873 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 45) Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-18 13:59:24,873 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 45) Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-18 13:59:24,895 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 45) Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-18 13:59:24,895 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 45) Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-18 13:59:24,928 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 45) Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-18 13:59:25,097 INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] (ServerService Thread Pool -- 45) Registering beans for JMX exposure on startup
+2017-10-18 13:59:25,112 INFO  [com.example.demo.DemoApplication] (ServerService Thread Pool -- 45) Started DemoApplication in 2.217 seconds (JVM running for 5.558)
+2017-10-18 13:59:25,136 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 45) WFLYUT0021: Registered web context: /demo
+2017-10-18 13:59:25,256 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 13) WFLYSRV0010: Deployed "demo.war" (runtime-name : "demo.war")
+2017-10-18 13:59:25,302 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-10-18 13:59:25,303 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-10-18 13:59:25,304 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Servlet 10.1.0.Final (WildFly Core 2.2.0.Final) started in 5665ms - Started 568 of 572 services (39 services are lazy, passive or on-demand)
+2017-10-18 13:59:38,572 INFO  [io.undertow.servlet] (default task-1) Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-18 13:59:38,572 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-18 13:59:38,586 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2017-10-18 14:00:31,453 INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] (Thread-62) Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30936ec1: startup date [Wed Oct 18 13:59:23 CST 2017]; root of context hierarchy
+2017-10-18 14:00:31,454 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2017-10-18 14:00:31,455 INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] (Thread-62) Unregistering JMX-exposed beans on shutdown
+2017-10-18 14:00:31,477 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTPS listener https suspending
+2017-10-18 14:00:31,479 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2017-10-18 14:00:31,479 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2017-10-18 14:00:31,479 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2017-10-18 14:00:31,482 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 48) WFLYUT0022: Unregistered web context: /demo
+2017-10-18 14:00:31,484 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 48) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2017-10-18 14:00:31,485 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 48) Closing Spring root WebApplicationContext
+2017-10-18 14:00:31,491 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0019: Host default-host stopping
+2017-10-18 14:00:31,499 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 1.4.0.Final stopping
+2017-10-18 14:00:31,541 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment demo.war (runtime-name: demo.war) in 71ms
+2017-10-18 14:00:31,544 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Servlet 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 71ms
