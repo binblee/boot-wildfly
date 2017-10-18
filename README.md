@@ -40,3 +40,11 @@ Visit following URL in web browser:
 http://localhost:8080/demo/display
 ```
 
+
+
+Cached display
+
+```
+http://localhost:8080/demo/cdisplay
+```
+

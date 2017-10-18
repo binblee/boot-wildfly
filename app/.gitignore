@@ -26,3 +26,8 @@ nbdist/
 ### Derrick
 .derrick_application_conf
 
+### wildfly
+wildfly-servlet-10.1.0.Final/standalone/data/content
+wildfly-servlet-10.1.0.Final/standalone/tmp/
+wildfly-servlet-10.1.0.Final/standalone/configuration/standalone_xml_history
+

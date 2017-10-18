@@ -27,9 +27,12 @@ public class DemoContent {
 
     @Override
     public String toString() {
-        return "DemoContent{" +
-                "id=" + id +
-                ", content=" + content +
-                '}';
+        StringBuilder sb = new StringBuilder("DemoContent{");
+        sb.append("id=");
+        sb.append(id);
+        sb.append(", content=");
+        sb.append(content);
+        sb.append("}");
+        return sb.toString();
     }
 }
