@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 
@@ -13,25 +13,34 @@ public class JspController {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
-    private static List<DemoContent> cachedContent;
+    private static List<DemoContent> cachedContent = null;
 
-    @GetMapping("/display")
-    public String display(Model model){
-        List<DemoContent> result = getDemoContentInstances();
-        model.addAttribute("message", result.toString());
-        return "display";
+    @RequestMapping("/display")
+    public String welcome(Model model){
+        List<DemoContent> result = queryContent();
+        if(result != null) {
+            model.addAttribute("message", result.toString());
+        }else{
+            model.addAttribute("message","result is null");
+        }
+        return "welcome";
     }
 
-    @GetMapping("/cdisplay")
+    @RequestMapping("/cdisplay")
     public String cdisplay(Model model){
         if(cachedContent == null){
-            cachedContent = getDemoContentInstances();
+            List<DemoContent> result = queryContent();
+            cachedContent = result;
         }
-        model.addAttribute("message", cachedContent.toString());
-        return "display";
+        if(cachedContent != null){
+            model.addAttribute("message",cachedContent.toString());
+        }else{
+            model.addAttribute("message","result is null");
+        }
+        return "welcome";
     }
 
-    private List<DemoContent> getDemoContentInstances(){
+    private List<DemoContent> queryContent(){
         return jdbcTemplate.query(
                 "SELECT id, content FROM demotable",
                 (rs, rowNum) -> new DemoContent(rs.getInt("id"),
