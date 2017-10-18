@@ -1,0 +1,20 @@
+FROM maven:3-jdk-8 AS build-env
+
+WORKDIR /app
+COPY . /app
+RUN mvn package
+
+FROM openjdk:8-jre
+COPY wildfly-servlet-10.1.0.Final /wildfly-servlet-10.1.0.Final
+COPY --from=build-env /app/target/*.jar /wildfly-servlet-10.1.0.Final/standalone/deployments/demo.jar
+
+ENV JAVA_OPTS=""
+ENV SERVER_PORT 8080
+
+EXPOSE ${SERVER_PORT}
+HEALTHCHECK --interval=10s --timeout=3s \
+	CMD curl -v --fail http://localhost:${SERVER_PORT}/health || exit 1
+
+WORKDIR /wildfly-servlet-10.1.0.Final/bin
+
+ENTRYPOINT [ "sh", "-c", "./standalone.sh" ]
