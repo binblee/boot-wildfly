@@ -18,13 +18,24 @@ docker-compose up -d
 ```
 
 ## Run wildfly
-in wildfly-servet-10.1.0.Final/bin directory
+in wildfly-servet-10.1.0.Final/bin directory. Remember, first setup mysql server address in environment
 ```
+export MYSQL_SERVER=localhost
 ./standalone.sh
 ```
 
 ## Access the application
+If you get this, then the app is up & running, it is healthy.
+
+```
+curl http://localhost:8080/demo/healthy
+ok
+```
+
+
+
 Visit following URL in web browser:
+
 ```
 http://localhost:8080/demo/display
 ```
