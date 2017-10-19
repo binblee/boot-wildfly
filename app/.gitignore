@@ -30,4 +30,6 @@ nbdist/
 wildfly-servlet-10.1.0.Final/standalone/data/content
 wildfly-servlet-10.1.0.Final/standalone/tmp/
 wildfly-servlet-10.1.0.Final/standalone/configuration/standalone_xml_history
+wildfly-servlet-10.1.0.Final/standalone/deployments
+wildfly-servlet-10.1.0.Final/standalone/log
 
